@@ -68,7 +68,7 @@ O App usar o notification do browser com time para informar avisos de quando se 
   * [ ] Compra em um e-commerce
     * [ ] Sistema de entrega 
     * [ ] Sistema de estoque
-    * [ ] 
+  
 
 
 
@@ -78,4 +78,4 @@ O App usar o notification do browser com time para informar avisos de quando se 
 
 ## Milha extra feita sem o auxilio do instrutor
 
-* [ ] Modificar a mensagens padrão do Notificador, colocando sugestões do que você poderá fazer naquele momento
+* [ ] Adicionar sugestão de post para a Notificação
