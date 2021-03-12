@@ -1,14 +1,37 @@
 import {Notifyer} from './Notifyer.js';
 import {Timer} from './Timer.js';
 import {Emitter} from './Emitter.js';
+import messages from './Messages.js';
 
 const time = 0;
 
-const notify = Notifyer.notify({
-    title: "Hora do post",
-    body: "Crie algum conteúdo para ajudar a comunidade"
-});
+// Refatorado
+// function MessageSugestion(){
 
+//     let msg = Math.floor(Math.random() *  messages.length);
+
+//     return messages[msg];
+// };
+
+// const notify = () => { 
+    
+//     const notification = Notifyer.notify({
+//         title: "Hora do post",
+//         body: MessageSugestion(),
+//     })
+//     notification()
+// }
+
+const notify = () => {
+    const randomIndex = Math.floor(Math.random() *  messages.length);
+
+    const notification = Notifyer.notify({
+        title: "Hora do post",
+        body: messages[randomIndex],
+    })
+
+    notification();
+}
 
 const App = {
     async start() {
@@ -16,8 +39,7 @@ const App = {
         try {
             await Notifyer.init();
 
-            Emitter.on('countdown-start', notify);
-
+            Emitter.on('countdown-start', notify);            
             Emitter.on('countdown-end', Timer.init);
 
             Timer.init(time);

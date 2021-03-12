@@ -30,7 +30,7 @@ const Timer = {
             seconds
         })
 
-        console.log(Timer.currentTime);
+        // console.log(Timer.currentTime);
 
         if(Timer.currentTime === 0) {
             clearInterval(Timer.interval);

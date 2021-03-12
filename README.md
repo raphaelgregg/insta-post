@@ -34,7 +34,8 @@ O App usar o notification do browser com time para informar avisos de quando se 
 * [ ] Criar um estado do Timer
 * [ ] Customizar o temporizador  
 
-3. Nesta aula foram abordados:
+3. Nesta aula foi abordado o Emitter, que será o responsável por implementar o padrão de projeto chamado Publisher Subscriber, onde ele irá registrar eventos e disparar eventos, alem das propriedades:
+   
    1. Acesso a propridades de um objeto por "[]"
    2. Protypes
    3. .forEach
@@ -74,3 +75,7 @@ O App usar o notification do browser com time para informar avisos de quando se 
 ## Techs
 
 * [ ] Javascripts
+
+## Milha extra feita sem o auxilio do instrutor
+
+* [ ] Modificar a mensagens padrão do Notificador, colocando sugestões do que você poderá fazer naquele momento
