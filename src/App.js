@@ -3,7 +3,7 @@ import {Timer} from './Timer.js';
 import {Emitter} from './Emitter.js';
 import messages from './Messages.js';
 
-const time = 0;
+const time = 0.1*60;
 
 // Refatorado
 // function MessageSugestion(){

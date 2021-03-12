@@ -1,5 +1,7 @@
 # Como utilizar o Notification do Browser com javascript
 
+<img src="./.github/post.png" alt="image">
+
 ## Project
 O App usar o notification do browser com time para informar avisos de quando se deve fazer um post.
 
